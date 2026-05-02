@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVD Journey - Tour & Travel Eropa & Asia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2><i class="fas fa-plane-departure"></i> TVD Journey</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinasi</a></li>
+                    <li><a href="#packages">Paket Tour</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="#contact" class="btn-book">Pesan Sekarang</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Jelajahi Dunia Bersama <span class="highlight">TVD Journey</span></h1>
+            <p class="hero-subtitle">Petualangan tak terlupakan ke Eropa & Asia dengan pelayanan premium</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Pelanggan Puas</p>
+                </div>
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Destinasi</p>
+                </div>
+                <div class="stat">
+                    <h3>10+</h3>
+                    <p>Tahun Pengalaman</p>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#destinations" class="btn-primary">Lihat Destinasi</a>
+                <a href="#packages" class="btn-secondary">Paket Tour</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Destinasi Populer</h2>
+            <div class="destinations-tabs">
+                <button class="tab-btn active" data-tab="europe">🇪🇺 EROPA</button>
+                <button class="tab-btn" data-tab="asia">🇨🇳 ASIA</button>
+            </div>
+            
+            <!-- Europe Destinations -->
+            <div class="tab-content active" id="europe">
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop" alt="Paris">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Paris, Prancis</h3>
+                            <p>Kota cinta dengan Menara Eiffel dan museum Louvre</p>
+                            <div class="destination-price">Rp 25.000.000</div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&h=300&fit=crop" alt="Rome">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Rome, Italia</h3>
+                            <p>Kota abadi dengan Colosseum dan makanan Italia autentik</p>
+                            <div class="destination-price">Rp 28.000.000</div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=400&h=300&fit=crop" alt="Amsterdam">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Amsterdam, Belanda</h3>
+                            <p>Kanal indah, museum Van Gogh, dan sepeda di mana-mana</p>
+                            <div class="destination-price">Rp 22.000.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Asia Destinations -->
+            <div class="tab-content" id="asia">
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1571896349840-0d711cc1b3cc?w=400&h=300&fit=crop" alt="Tokyo">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Tokyo, Jepang</h3>
+                            <p>Tradisi dan modernitas bertemu di kota paling futuristik</p>
+                            <div class="destination-price">Rp 18.000.000</div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?w=400&h=300&fit=crop" alt="Bangkok">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Bangkok, Thailand</h3>
+                            <p>Kuil emas, street food, dan belanja murah meriah</p>
+                            <div class="destination-price">Rp 12.000.000</div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1572493996171-47a26f468f07?w=400&h=300&fit=crop" alt="Bali">
+                            <div class="destination-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Pulau dewa dengan pantai, budaya, dan alam memukau</p>
+                            <div class="destination-price">Rp 8.000.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">Paket Tour Terbaik</h2>
+            <div class="packages-grid">
+                <div class="package-card featured">
+                    <div class="package-badge">POPULAR</div>
+                    <div class="package-header">
+                        <i class="fas fa-crown"></i>
+                        <h3>Europe Deluxe 12 Hari</h3>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Paris, Rome, Amsterdam</li>
+                        <li><i class="fas fa-check"></i> Hotel 4-5 Star</li>
+                        <li><i class="fas fa-check"></i> Tiket Pesawat PP</li>
+                        <li><i class="fas fa-check"></i> Tour Guide Berpengalaman</li>
+                    </ul>
+                    <div class="package-price">
+                        <span class="price-old">Rp 35.000.000</span>
+                        <span class="price-new">Rp 28.500.000</span>
+                    </div>
+                    <a href="#contact" class="btn-book">Pesan Sekarang</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <i class="fas fa-plane"></i>
+                        <h3>Asia Explorer 8 Hari</h3>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Tokyo & Bangkok</li>
+                        <li><i class="fas fa-check"></i> Hotel 3-4 Star</li>
+                        <li><i class="fas fa-check"></i> Makanan Halal</li>
+                    </ul>
+                    <div class="package-price">
+                        <span class="price-new">Rp 15.900.000</span>
+                    </div>
+                    <a href="#contact" class="btn-book">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Mengapa Memilih TVD Journey?</h2>
+                    <p>Kami telah melayani ribuan traveler dengan pengalaman lebih dari 10 tahun. Setiap perjalanan dirancang dengan detail untuk memberikan pengalaman terbaik.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>100% Aman</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Grup Kecil</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>24/7 Support</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Siap Berangkat?</h2>
+            <p class="contact-subtitle">Hubungi kami sekarang untuk penawaran spesial</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>+62 812-3456-7890</h3>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>hello@tvdjourney.com</h3>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Jakarta, Indonesia</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2><i class="fas fa-plane-departure"></i> TVD Journey</h2>
+                    <p>Petualangan impian Anda dimulai dari sini</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#destinations">Destinasi</a>
+                    <a href="#packages">Paket Tour</a>
+                    <a href="#about">Tentang</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TVD Journey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
